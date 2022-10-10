@@ -9,7 +9,7 @@ contract Transactions {
 
     event Transfer(address from, address receiver, uint amount, string message, uint256 timestamp, string keyword);
   
-    struct TransferStruct {
+    struct Transfertruct {
         address sender;
         address receiver;
         uint amount;
